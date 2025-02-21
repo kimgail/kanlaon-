@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p> Ofren, Kimberly</p>
+<p> Ornales, Ahkisha Gail</p>
+
+<script>
+function face(sw){
+var pic;
+if (sw==0){
+pic="both.jpg"
+}else{
+pic="kulit.jpg"
+}
+document.getElementById('mylmage').src=pic;
+}
+</script>
+<img id="mylmage"src="kulit.jpg" width="180"height="180">
+
+<p>
+<button type="button"onclick="face(1)">cute</button>
+<button type="button"onclick="face(0)">ganda</button>
+</p>
+<button onclick="document.location='public.html'">BACK</button>
+</div>
+
+</body>
+</html>
